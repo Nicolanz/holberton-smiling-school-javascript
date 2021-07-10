@@ -1,4 +1,4 @@
-# <h1>holberton-smiling-school-javascript</h1><br>
+# <h1 align = "center">holberton-smiling-school-javascript</h1><br>
 <p align="center">
     <img width="330" height="200" src="images/npm.jpg">
 </p>
@@ -24,7 +24,7 @@ What you should learn from this project:
 * A README.md file, at the root of the folder of the project, is mandatory
 
 ---
-## Imports:computer:
+## Imports :computer:
 For this project, you will need: fonts from Google, JQuery, Bootstrap CSS/JS
 ```html
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
