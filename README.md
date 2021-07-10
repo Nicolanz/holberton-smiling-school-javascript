@@ -1,4 +1,4 @@
-# <h1 align = "center">0x0F. Build a web app in JavaScript :bookmark_tabs:</h1><br>
+# <h1 align = "center">0x0F. Build a web app in JavaScript</h1><br>
 <p align="center">
     <img width="330" height="200" src="images/npm.jpg">
 </p>
