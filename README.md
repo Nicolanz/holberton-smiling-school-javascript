@@ -1,11 +1,11 @@
 # <h1>holberton-smiling-school-javascript</h1><br>
 <p align="center">
-    <img width="330" height="200" src="images/npm.png">
+    <img width="330" height="200" src="images/npm.jpg">
 </p>
 
 ------------ 
 
-## 0x0F. Build a web app in JavaScript:bookmark_tabs:
+## 0x0F. Build a web app in JavaScript :bookmark_tabs:
 
 In this project, you will finalize the previous project [0x0B. Implement a design with bootstrap](https://github.com/Nicolanz/holberton-smiling-school) and make some parts dynamic with Javascript (JQuery exactly).
 You will reuse final files of [0x0B. Implement a design with bootstrap](https://github.com/Nicolanz/holberton-smiling-school) and update them.
