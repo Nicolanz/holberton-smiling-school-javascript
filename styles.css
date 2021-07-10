@@ -1,0 +1,476 @@
+/* HOMEPAGE */
+
+/* fonts */
+
+@font-face{
+    font-family: "HolbertonIcons";
+    src: url(fonts/holberton_school-icon.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Regular Source Sans Pro';
+    src: url(fonts/SourceSansPro-Regular.otf);
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Bold Source Sans Pro';
+    src: url(fonts/SourceSansPro-Bold.otf);
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Light Source Sans Pro';
+    src: url(fonts/SourceSansPro-ExtraLight.otf);
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Italic Source Sans Pro';
+    src: url(fonts/SourceSansPro-It.otf);
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Italic-Light Source Sans Pro';
+    src: url(fonts/SourceSansPro-ExtraLightIt.otf);
+    font-style: normal;
+}
+@font-face {
+    font-family: "spincycle";
+    src: url(fonts/spincycle_ot.otf);
+    font-style: normal;
+}
+
+/* Root variabes */
+:root{
+    --font-regular: Regular Source Sans Pro;
+    --font-bold: Bold Source Sans Pro;
+    --font-light: Light Source Sans Pro;
+    --font-italic: Italic Source Sans Pro;
+    --font-italic-light: Italic-Light Source Sans Pro;
+    --font-spincycle-notmal: spincycle;
+    --holberton-icons: HolbertonIcons;
+    --color-white: #ffff;
+    --black-color: #000;
+    --black-cards-color: #071629;
+    --grey-cards-color: #979797;
+    --blue-cp-footer-color: #293646;
+    --blue-members-color: #071629;
+    --green-check-color: #82D24F;
+    --global-color: #C271FF;
+    --extra-sm-font-size:3rem;
+    --sm-font-size: 4rem;
+    --md-font-size: 5rem;
+    --lg-font-size: 6rem;
+    --extra-lg-font-size: 7rem;
+}
+
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-global{
+    background-color: var(--global-color) !important;
+    font-family: var(--font-regular);
+    color: var(--color-white) !important;
+    padding: 12px !important;
+    border-radius: 25px !important;
+}
+.btn-global:hover, .btn-global:active{
+    opacity: 0.9
+}
+.regular-font{
+    font-family: var(--font-regular);
+}
+.light-font{
+    font-family: var(--font-light);
+}
+.bold-font{
+    font-family: var(--font-bold);
+}
+.holberton_icons-font{
+    font-family: var(--holberton-icons);
+}
+.spincycle-font{
+    font-family: var(--font-spincycle-notmal);
+}
+
+/* header styles */
+.header{
+    background-image: url('images/pic_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:auto;
+}
+.header a:hover{
+    color: var(--global-color) !important;
+}
+
+/* nav styles */
+.header nav{
+    margin-bottom: 100px;
+}
+.header nav .navbar-toggler{
+    outline: none;
+    border: none;
+}
+.header nav span{
+    margin-top: -20px;
+    color: var(--color-white);
+    font-size: 35px;
+}
+.imgs{
+    width: 25%;
+    height: 25%;
+}
+
+/* pros styles */
+.header .pros{
+    margin-top: 140px;
+}
+.header .pros div p{
+    font-size: 1.5rem;
+}
+.header .pros div p span{
+    color: var(--global-color);
+}
+.header .pros img{
+   border-radius: 50%;
+   width: 40%;
+   height: 50%;
+}
+.header .pros div div h3{
+    font-size: 1.1rem;
+}
+.header .pros div div p{
+    font-size: 0.9rem;
+}
+
+/* carousel styles */
+.my_slider{
+    min-height: 350px;
+    background-color: var(--global-color);
+}
+.next-icon, .prev-icon{
+    font-family: var(--holberton-icons);
+    font-size: 100px;
+}
+.div-slider{
+    min-height: 350px ;
+}
+.my_slider .div-slider div img{
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+}
+.my_slider .div-slider div p{
+    font-family: var(--font-light);
+    font-size: 20px;
+}
+.my_slider .div-slider div div h2{
+    font-family: var(--font-bold);
+    font-size: 18px;
+}
+.my_slider .div-slider div div span{
+    font-family: var(--font-italic-light);
+}
+
+/* videos carousel styles */
+.videos-slider{
+    min-height: 600px;
+    max-height: auto;
+    background: var(--color-white);
+}
+.videos-slider div p{
+    font-size: 1.5rem;
+}
+.videos-slider div p span{
+    color: var(--global-color);
+}
+.videos-slider a .prev-icon, .videos-slider a .next-icon{
+    color: var(--black-cards-color);
+}
+.videos-slider div div .row div .card-deck .c-body h5{
+    color: var(--black-cards-color);
+}
+.videos-slider div div .row div .card-deck .c-body p{
+    font-size: 1rem;
+    color: var(--grey-cards-color);
+}
+.videos-slider div div .row div .card-deck .c-body div h6,
+.videos-slider div div .row div .card-deck .c-body div span{
+    color: var(--global-color);
+}
+.videos-slider div div .row div .card-deck .c-body p + div img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.videos-slider div div .row div .card-deck .c-body div + div img{
+    width:27px;
+    height: 27px;
+}
+
+/* members styles */
+.members{
+    background: var(--blue-members-color);
+    margin-top: 100px;
+    min-height: 400px;
+    max-height: auto;
+    color: var(--color-white);
+}
+.members div h2{
+    font-size: 1.5rem;
+}
+.members div h2 span{
+    color: var(--global-color);
+}
+.members div img{
+    width: 55px;
+    height: 45px;
+}
+.members div h6{
+    font-size: 1.1rem;
+}
+.members div p{
+    font-size: .9rem;
+}
+
+/* footer styles */
+.footer{
+    min-height:200px;
+    max-height: auto;
+    background: var(--blue-members-color);
+}
+.footer div div img{
+    width: 30px;
+    height: 30px;
+}
+.footer div div img+img{
+    width: 140px;
+    height: 35px;
+}
+.footer div div span{
+    font-family: var(--holberton-icons);
+    font-size: 2rem;
+}
+.footer span p{
+    font-family: var(--font-regular);
+    color: var(--blue-cp-footer-color);
+}
+
+/* ---------------------------------------------------------------- */
+
+/* PRICING PAGE */
+
+/* pricing header styles */
+
+.pricing-header{
+    background-image: url("images/pic_2.jpg");
+    min-height: auto;
+    max-height: auto;
+}
+.pricing-header div h3{
+    font-size: 2rem;
+}
+.pricing-header div span img{
+    width: 35px;
+    height: 30px;
+}
+.pricing-header div span img + img{
+    width: 160px;
+    height: 40px;
+}
+.pricing-header div span h1{
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+/* prices grid styles */
+
+.pricing-header .prices{
+    height: 250px;
+}
+.pricing-header .prices div span{
+    color: var(--grey-cards-color);
+}
+.pricing-header table thead td p{
+    font-size: .7rem ;
+}
+.pricing-header div table td, .pricing-header div table th {
+    border: none;
+}
+.pricing-header .borders{
+    border-bottom: 2px solid var(--blue-cp-footer-color) !important;
+}
+.pricing-header div table h1{
+    font-size: 2.5rem;
+}
+.pricing-header div table th span{
+    font-size: .9rem;
+    color: var(--grey-prices-color);
+}
+.pricing-header div table tbody tr td p.checks{
+    font-size: 2rem;
+    color: var(--green-check-color);
+}
+.pricing-header div table tbody tr th img{
+    width: 120px;
+    height: 50px;
+}
+
+/* FAQ styles */
+.faq{
+    margin-bottom: 150px;
+}
+.faq span h1{
+    font-size: 5rem;
+}
+.faq div div h6{
+    font-size: 1.1rem;
+}
+.faq div div p{
+    color: var(--grey-cards-color);
+}
+
+
+/* ---------------------------------------------------------------- */
+
+/* COURSES PAGE */
+
+/* courses header styles */
+
+.courses-header{
+    min-height: 400px;
+    max-height: auto;
+    background-image: url("images/pic_3.jpg");
+}
+.courses-header nav{
+    margin-bottom: 0;
+}
+.courses-header div h1{
+    font-family: 'Coiny', cursive;
+}
+.courses-header div h1 span{
+    color: var(--global-color);
+}
+
+/* search div */
+.courses-header .search-div{
+    margin-top: 100px;
+    min-height: 200px;
+    max-height: auto;
+    background: var(--global-color);
+}
+.courses-header .search-div form div input, .courses-header .search-div form div select{
+    border: none;
+    background: rgba(255, 255, 255, 0.342);
+    font-family: var(--font-light);
+    color: white;
+}
+.courses-header .search-div form div label{
+    font-size: 0.8rem;
+}
+.courses-header .search-div form div .form-control::placeholder{
+    font-family: var(--holberton-icons), var(--font-light);
+    color: white;
+}
+
+/* results styles */
+.results-videos > span h6{
+    color: var(--grey-cards-color);
+}
+.results-videos .card-deck .c-body h5{
+    color: var(--black-cards-color);
+} 
+.results-videos .card-deck .c-body p{
+    font-size: 1rem;
+    color: var(--grey-cards-color);
+}
+.results-videos .card-deck .c-body div h6,
+.results-videos .card-deck .c-body div span{
+    color: var(--global-color);
+}
+.results-videos .card-deck .c-body p + div img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.results-videos .card-deck .c-body div + div img{
+    width:27px;
+    height: 27px;
+}
+
+/* media queries */
+@media only screen and (max-width: 576px){
+    .first_title{
+        font-size: var(--extra-sm-font-size);
+    }
+    .header .pros img{
+        width: 80px;
+        height: 80px;
+    }
+    .next-icon, .prev-icon{
+        font-size: 50px;
+    }
+    .pricing-header div h3{
+        font-size: 1.5rem;
+    }
+    .pricing-header div span img{
+        width: 30px;
+        height: 25px;
+    }
+    .pricing-header div span img + img{
+        width: 110px;
+        height: 35px;
+    }
+}
+@media only screen and (min-width: 576px){
+    .first_title{
+        font-size: var(--sm-font-size);
+    }
+    .header .pros img{
+        width: 100px;
+        height: 100px;
+    }
+    .next-icon, .prev-icon{
+        font-size: 50px;
+    }
+    .pricing-header div span img{
+        width: 30px;
+        height: 25px;
+    }
+    .pricing-header div span img + img{
+        width: 150px;
+        height: 40px;
+    }
+}
+@media only screen and (min-width: 786px){
+    .first_title{
+        font-size: var(--md-font-size);
+    }
+    .header .pros img{
+        width: 150px;
+        height: 150px;
+    }
+    .next-icon, .prev-icon{
+        font-size: 75px;
+    }
+    .pricing-header div span img{
+        width: 30px;
+        height: 25px;
+    }
+    .pricing-header div span img + img{
+        width: 150px;
+        height: 40px;
+    }
+}
+@media only screen and (min-width: 960px){
+    .first_title{
+        font-size: var(--extra-lg-font-size);
+    }
+    .next-icon, .prev-icon{
+        font-family: var(--holberton-icons);
+        font-size: 100px;
+    }
+}
