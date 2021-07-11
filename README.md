@@ -39,7 +39,7 @@ For this project, you will need: fonts from Google, JQuery, Bootstrap CSS/JS
 ```
 
 ---
-
+## Tasks :books:
 
 ### [0. Reuse and polish your Bootstrap integration](./README.md)
 * For this task, please write an amazing `README.md`
