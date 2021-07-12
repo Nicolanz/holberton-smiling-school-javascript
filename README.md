@@ -65,7 +65,7 @@ For this project, you will need: fonts from Google, JQuery, Bootstrap CSS/JS
 * From `0-courses.html`, create `courses.html`. Replace static video card by dynamic loading:
 
 
-### [6. JSON to XML](./xml-scripts.js)
+### [6. JSON to XML](./xml-scripts.js) _Advanced_
 * Convert all your JSON Ajax call to another API… a XML API!
 
 ---
