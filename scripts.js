@@ -40,7 +40,7 @@ $.get( "https://smileschool-api.hbtn.info/quotes", function(data, statusText, xh
                     </div> 
                 </div>`
             );
-            if (id == "1"){
+            if (id == 1){
                 $( ".quotes-carousel .carousel-item" ).addClass("active");
             }
         }
