@@ -1,5 +1,5 @@
 
-// Task 1 code
+// Task 1 & 4 code
 $.get( "https://smileschool-api.hbtn.info/quotes", function(data, statusText, xhr) {
     if (xhr.status == "200") {
         for (let i = 0; i < data.length; i++) {
