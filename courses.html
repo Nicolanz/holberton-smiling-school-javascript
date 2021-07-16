@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smile School</title>
+        <link rel="icon" href="images/favicon.ico">
+        <!-- Style files -->
+        <link rel="stylesheet" href="styles.css">
+        
+         <!-- Google fonts -->
+         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+ 
+         <!-- JQuery & Bootstrap -->
+         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ 
+         <!-- Bootstrap cdn -->
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
+         <!-- Styles & scripts external files -->
+         <script src="scripts.js"></script>
+
+    </head>
+    <body>
+        <!-- courses header -->
+        <section class="courses-header header ">
+            <nav class="navbar navbar-expand-lg navbar-light d-flex">
+                <button class="navbar-toggler position-relative" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="position-absolute"><label class="holberton_icons-font"></label></span>
+                </button>
+                <a class="navbar-brand m-auto d-flex flex-column flex-lg-row flex-wrap flex-lg-nowrap justify-content-center align-items-center" href="#">
+                    <img class="imgs mt-4 mt-lg-0 col-4 col-lg-2 p-2 " src="images/smile_off.png" alt="">
+                    <img class="imgs col-7  col-lg-6 p-1" src="images/logo.png" alt="">
+                </a>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ml-auto d-flex align-items-center">
+                        <li class="nav-item col-3">
+                            <a class="nav-link btn btn-link text-white regular-font text-center">COURSES</a>
+                        </li>
+                        <li class="nav-item col-3">
+                            <a class="nav-link btn btn-link text-white regular-font text-center">PRICING</a>
+                        </li>
+                        <li class="nav-item col-3">
+                            <a class="nav-link btn btn-link text-white regular-font text-center">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="text-center text-white mt-5 d-none d-md-block"><h1 >« Don’t cry because it’s over.<br>
+                <span>Smile</span> because it happened. »</h1>
+            </div>
+            <!-- search div  -->
+            <div class="search-div d-flex justify-content-center align-items-center col-12 ">
+                <form class="col-md-12 col-lg-11 text-white">
+                    <div class="form-row my-5 my-lg-0">
+                        <div class="col-lg-4 col-md-12">
+                            <label class="light-bold" for="search">KEYWORDS</label>
+                            <input type="text" class="form-control form-control-lg" id="search" placeholder=" Search by keywords">
+                        </div>
+                        <div class="col-lg-4 col-12 col-md-6 mt-2 mt-md-4 mt-lg-0">
+                            <label class="light-bold" for="exampleFormControlSelect1">TOPIC</label>
+                            <select class="form-control form-control-lg"  id="exampleFormControlSelect1">
+                                <option>All</option>
+                                <option >Novice</option>
+                                <option>Intermediate</option>
+                                <option>Expert</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4 col-12 col-md-6 mt-2 mt-md-4 mt-lg-0">
+                            <label class="light-bold" for="exampleFormControlSelect2">SORT BY</label>
+                            <select class="form-control form-control-lg" id="exampleFormControlSelect2">
+                                <option >Most Popular</option>
+                                <option>Most Recent</option>
+                                <option>Most Viewed</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- results section -->
+        <section class="results-videos results-courses col-11 d-flex flex-row flex-wrap justify-content-around container">
+            <div class="my-5 pink_loader"></div>
+        </section>
+
+        <!-- footer -->
+        <section class="footer d-flex flex-column justify-content-between mt-5">
+            <div class="col-12 d-flex flex-row flex-wrap justify-content-between align-items-center mt-md-4">
+                <div class="row mt-4 mt-md-0 p-0 p-md-4 col-12 col-md-4 d-flex justify-content-center align-items-center">
+                    <img class="mr-2" src="images/smile_off.png" alt="">
+                    <img src="images/logo.png" alt=""></div>
+                <div class="row p-0 p-md-4 col-12 col-md-4 text-white  d-flex justify-content-center">
+                    <span class="p-2"></span>
+                    <span class="p-2"></span>
+                    <span class="p-2"></span>
+                </div>
+            </div>
+            <span class="col-12 d-flex justify-content-center">
+                <p class="p-2 mr-4">©smileschool 2020</p>
+            </span>
+        </section>
+
+    </body>
+</html>
