@@ -1079,8 +1079,7 @@ $(document).ready(function(){
         }
     })
 
-
-    // Task 4 code
+    // Task - courses code
     $(".search-div #search").change(function(){
         listResults($(".search-div #search").val(), 
         $(".search-div #exampleFormControlSelect1").val(),
